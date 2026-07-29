@@ -1,0 +1,33 @@
+# Maven Build Artifacts
+**/target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# IDE Configuration Files
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+.vscode/
+.factorypath
+
+# Environment & Secret Files
+.env
+.env.local
+*.pem
+*.key
+
+# Logs
+*.log
+**/logs/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Docker Data
+**/postgres_data/
